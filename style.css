@@ -123,8 +123,10 @@ width: 100%;
     color: white;
     width: 100%;
     height: 100vh;
-    background-image: url(images/crazy\ planet.png);
 
+    background-image: url(images/b2.jpg);
+   background-size: 100%;
+   background-position-y: -200px;
 }
 
 .row2 h1{
@@ -133,13 +135,107 @@ width: 100%;
     font-size: 70px;
 }
 
-.row2 h1 span{
-    background-color: rgba(0, 0, 0, .95);;
+
+
+.git{
+    width: 275px;
+    position: relative; 
+    left: 260px; 
+    top: 180px;
 }
 
 .yt{
     width: 275px;
     position: relative; 
-    left: 100px; 
-    top: 115px;
+    left: 320px; 
+    top: 140px;
+
+}
+
+.ig{
+    width: 220px;
+    position: relative; 
+    left: 430px; 
+    top: 150px;
+}
+
+.linked{
+    width: 220px;
+    position: relative; 
+    left: 530px; 
+    top: 150px;
+}
+
+
+/* --------------- contact *----------------------*/
+
+
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: aquamarine;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid rgb(74, 177, 142);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background .5s;
+}
+
+.btn:hover{
+background: aquamarine;
+    
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: rgb(74, 177, 142);
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 5px;
 }
